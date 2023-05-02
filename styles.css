@@ -4,7 +4,7 @@
 {
 
 	width:200px;
-	background-color:lightblue;
+	/*background-color:lightblue;*/
 	display:grid;
 	grid-template-columns:repeat(2,auto);
 		/*grid-template-clumns:repeat(2,auto);*/
@@ -12,5 +12,7 @@
 }
 .item{
 	color:black;
+	width:200px;
 	
 }
+
