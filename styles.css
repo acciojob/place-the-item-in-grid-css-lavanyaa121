@@ -3,16 +3,24 @@
 .holder
 {
 
-	width:200px;
-	/*background-color:lightblue;*/
+    width:100%;
+	background-color:pink;
+	color:white;
 	display:grid;
-	grid-template-columns:repeat(2,auto);
-		/*grid-template-clumns:repeat(2,auto);*/
+	grid-template-columns:repeat(2,200px);
+	gap:20px 30px;
+	justify-content:center;
+	align-content:start;
+	padding:10px;
+		
+		
 
 }
-.item{
+ .item{
 	color:black;
-	width:200px;
+background-color:lightblue;
+	
 	
 }
+
 
